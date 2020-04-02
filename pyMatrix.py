@@ -10,7 +10,7 @@ def matrix(window):
     window.clear() #clear the terminal
     window.refresh() #refresh the terminal
 
-    height, width = window.getmaxyx() #get the hieght and width of the terminal
+    height, width = window.getmaxyx() #get the height and width of the terminal
 
     characters = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()_+-=[]{};:,<>./?   " #list of characters to use (extra space chars to be chosen more frequently)
 
